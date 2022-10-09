@@ -1,24 +1,222 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/custom.css">
-    <title>Main Page</title>
+    <link href="./css/custom.css" rel="stylesheet"/>
+    <title>Todo Tecno</title>
 </head>
 <body>
     <div class="container mt-5 justify-content-center ">
-       <div class="text-center">
-            <h1 class="display-4">MI EMPRESA S.A</h1>
-            <h3 class="display-6">Innovacion en IT</h3>
-            <img id="foto" src="/img/logo_company.png" />
+        <div class="container mt-5 justify-content-center text-center">
+                <h1 class="display-4">MI EMPRESA S.A</h1>
+                <h3 class="display-6">Innovacion en IT</h3>
+                <img id="logo" src="/img/logo_company.png" />
         </div>
-        <div  id="resumen" class="container p-5 bg-primary text-white">
-            <p>Ipsum dolor, sit amet consectetur adipisicing elit. Id neque, atque mollitia dolores iste consequatur cum aliquid tempore harum sapiente ea error suscipit deserunt, voluptates eius ex, perferendis qui adipisci?</p>
+            <p id="resumen" class="container p-3 bg-primary text-white">
+                Ipsum dolor, sit amet consectetur adipisicing elit. Id neque, atque mollitia dolores iste consequatur cum aliquid tempore harum sapiente ea error suscipit deserunt, voluptates eius ex, perferendis qui adipisci?
+            </p>
+    </div>
+    <div class="text-center">
+        <h1 class="display-5 mt-5">Nuestros productos</h1>
+        <div class="text-left">
+            <a href="#audio" class="link-info">Audio Car</a>
+            <a href="#camaras" class="link-info"> Camaras</a>
+            <a href="#celulares" class="link-info">Celulares</a>
+        </div>
+        <div class="d-flex flex-row">
+            <section class="p-2 epigrafe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maxime, praesentium autem atque perferendis amet delectus eligendi ipsa incidunt molestias, magni, id saepe! Dolorum enim ducimus quisquam perspiciatis ut? Quisquam.</section>
         </div>
     </div>
+    <div class="container" id="audio">
+        <p class="text-center">
+            <h1 class="display-6 mt-5">Audio Car</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquid iusto error quas unde minima architecto exercitationem magnam expedita ipsa ex consectetur, velit hic nostrum inventore necessitatibus voluptatibus dicta sit?
+        </p>
+        <div class="row">
+            <div class="col-3 col-sm-3">
+                <img id="imgsku8569" src = "/img/audio/images4.jpeg" class="producto" >
+                <p id="dsku8569">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+               </p>
+               <section class="text-center">
+                <buttom id="sku8569" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                <buttom id='s323243' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+            </section>
+            </div>
+            <div class="col-3 col-sm-3">
+                <img id="imgsku258" src = "/img/audio/images5.jpeg" class="producto">
+                <p id="dsku258">
+                    Dolorum quaerat aliquid quas consequuntur cumque! Natus.. 
+                </p>
+                <section class="text-center">
+                    <buttom id="sku258" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                    <buttom id='s323d2' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                </section>
+            </div>
+            <div class="col-3 col-sm-3">
+                <img id="imgsku125" src = "/img/audio/images6.jpeg" class="producto">
+                <p id="dsku125">
+                    Temporibus accusamus sequi dignissimos error consequuntur reiciendis ipsam rerum.
+                </p>
+                <section class="text-center">
+                    <buttom id="sku125" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                    <buttom id='s32323' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+               </section>
+            </div>
+            <div class="col-3 col-sm-3">
+                <img id="imgsku363" src = "/img/audio/images7.jpeg" class="producto">
+                <p id="dsku363">
+                    Voluptatibus iusto autem ratione vel eaque. Facere nihil maiores molestiae?
+                </p>
+                <section class="text-center">
+                    <buttom id="sku363" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                    <buttom id='s3232' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                </section>
+            </div>
+            <div class="text-left mt-4">
+                <a href="#" class="link-info"> Atras</a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="camaras">
+            <p class="text-center">
+                <h1 class="display-6 mt-5">Camaras</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquid iusto error quas unde minima architecto exercitationem magnam expedita ipsa ex consectetur, velit hic nostrum inventore necessitatibus voluptatibus dicta sit?
+            </p>
+            <div class="row">
+                <div class="col-3 col-sm-3">
+                    <img id="imgsku3633" src = "/img/cameras/images4.jpeg" class="producto">
+                    <p id="dsku3633">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku3633" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom id='s3232w' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                    </section>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <img  id="imgsku36334"  src = "/img/cameras/images5.jpeg" class="producto">
+                    <p id="dsku36334">
+                        Dolorum quaerat aliquid quas consequuntur cumque! Natus.. 
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku36334" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom id='s323233' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                    </section>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <img id="imgsku33463" src = "/img/cameras/images6.jpeg" class="producto">
+                    <p id="dsku33463">
+                        Temporibus accusamus sequi dignissimos error consequuntur reiciendis ipsam rerum.
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku33463" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom id='s3232534' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                    </section>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <img id="imgsku4563" src = "/img/cameras/images2.jpeg" class="producto">
+                    <p id="dsku4563">
+                        Voluptatibus iusto autem ratione vel eaque. Facere nihil maiores molestiae?
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku4563" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom id='s3232ew' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                   </section>
+                </div>
+                <div class="text-left mt-4">
+                    <a href="#" class="link-info"> Atras</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="celulares">
+            <p class="text-center">
+                <h1 class="display-6 mt-5">Celulares</h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates repellendus.
+            </p>
+            <div class="row">
+                <div class="col-3 col-sm-3">
+                    <img  id="imgsku3363" src = "/img/phones/images.jpeg" class="producto" id="imgsku3363">
+                    <p id="dsku3363">
+                        Ducimus ab sed explicabo in accusamus. Quis nobis provident quas tempora rem sunt.
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku3363" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom id='s323254' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                    </section>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <img id="imgsku34463" src = "/img/phones/images1.jpeg" class="producto">
+                    <p id="dsku34463">
+                        Explicabo est exercitationem ducimus ratione modi ad error esse.
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku34463" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom id='s3232434' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                    </section>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <img id="imgsku898" src = "/img/phones/images2.jpeg" class="producto">
+                    <p id="dsku898">
+                        Alias veritatis modi blanditiis quas magnam? Est rerum eligendi natus, saepe illo ullam?
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku898" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom type="buttom" class="btn btn-primary">Comprar</buttom>
+                   </section>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <img id="imgsku36DD3" src = "/img/phones/images3.jpeg" class="producto">
+                    <p id="dsku36DD3">
+                        In sequi assumenda minima quod eos quis optio! Velit.
+                    </p>
+                    <section class="text-center">
+                        <buttom id="sku36DD3" type="buttom" class="btn btn-info" onclick="mostraDetalles(id)" data-bs-toggle="modal" data-bs-target="#modalDetalles">Detalles</buttom>
+                        <buttom id='s3232435' type="buttom" class="btn btn-primary" onclick="comprar(id)">Comprar</buttom>
+                    </section>
+                </div>
+                <div class="text-left mt-4">
+                    <a href="#" class="link-info"> Atras</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal detalles -->
+    <!-- Button trigger modal -->
+    <!-- <button id="sku36DD3" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDetalles" 
+    onclick="mostraDetalles(id)">
+        Launch demo modal
+    </button> -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modalDetalles" tabindex="-1" aria-labelledby="modalDetallesLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalDetallesLabel">Detalles del producto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cancelar"></button>
+            </div>
+            <div id="modalBody" class="modal-body">
+                <div class="row"> 
+                    <div class="col-6" id="fotoProducto"></div>    
+                    <div class="col-6" id="descProducto"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="./js/landing.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>    
 </body>
 </html>
+

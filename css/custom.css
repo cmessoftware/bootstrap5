@@ -1,10 +1,61 @@
-#foto{
-    width:200px;
+#logo{
+    width:250px;
     margin:2rem 0; 
     border-radius: 50%;
-    border: 2px solid blue;
-}
+}    
 
 #resumen {
-    border: 2px solid black
+    /* border: 2px solid black; */
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    
 }
+
+.producto{
+    border-radius : 50%;
+    width: 180px;;
+    height: 180px;
+}
+
+.prodDetalle{
+    width: 120px;;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.epigrafe{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+table th{
+    width: 350px;
+    height: 130px;
+    font-size: 0; 
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  } 
+  
+/* div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 20px;
+  } */
+
+/* a {
+    display: inline-block;
+    padding: 5px 7%;
+    text-decoration: none;
+  } */
